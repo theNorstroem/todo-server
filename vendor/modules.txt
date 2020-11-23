@@ -1,0 +1,311 @@
+# github.com/RoaringBitmap/roaring v0.4.23
+github.com/RoaringBitmap/roaring
+# github.com/blevesearch/bleve v1.0.12
+github.com/blevesearch/bleve
+github.com/blevesearch/bleve/analysis
+github.com/blevesearch/bleve/analysis/analyzer/standard
+github.com/blevesearch/bleve/analysis/datetime/flexible
+github.com/blevesearch/bleve/analysis/datetime/optional
+github.com/blevesearch/bleve/analysis/lang/en
+github.com/blevesearch/bleve/analysis/token/lowercase
+github.com/blevesearch/bleve/analysis/token/porter
+github.com/blevesearch/bleve/analysis/token/stop
+github.com/blevesearch/bleve/analysis/tokenizer/unicode
+github.com/blevesearch/bleve/document
+github.com/blevesearch/bleve/geo
+github.com/blevesearch/bleve/index
+github.com/blevesearch/bleve/index/scorch
+github.com/blevesearch/bleve/index/scorch/mergeplan
+github.com/blevesearch/bleve/index/scorch/segment
+github.com/blevesearch/bleve/index/store
+github.com/blevesearch/bleve/index/store/boltdb
+github.com/blevesearch/bleve/index/store/gtreap
+github.com/blevesearch/bleve/index/upsidedown
+github.com/blevesearch/bleve/mapping
+github.com/blevesearch/bleve/numeric
+github.com/blevesearch/bleve/registry
+github.com/blevesearch/bleve/search
+github.com/blevesearch/bleve/search/collector
+github.com/blevesearch/bleve/search/facet
+github.com/blevesearch/bleve/search/highlight
+github.com/blevesearch/bleve/search/highlight/format/html
+github.com/blevesearch/bleve/search/highlight/fragmenter/simple
+github.com/blevesearch/bleve/search/highlight/highlighter/html
+github.com/blevesearch/bleve/search/highlight/highlighter/simple
+github.com/blevesearch/bleve/search/query
+github.com/blevesearch/bleve/search/scorer
+github.com/blevesearch/bleve/search/searcher
+github.com/blevesearch/bleve/size
+# github.com/blevesearch/go-porterstemmer v1.0.3
+github.com/blevesearch/go-porterstemmer
+# github.com/blevesearch/mmap-go v1.0.2
+github.com/blevesearch/mmap-go
+# github.com/blevesearch/segment v0.9.0
+github.com/blevesearch/segment
+# github.com/blevesearch/snowballstem v0.9.0
+github.com/blevesearch/snowballstem
+github.com/blevesearch/snowballstem/english
+# github.com/blevesearch/zap/v11 v11.0.12
+github.com/blevesearch/zap/v11
+# github.com/blevesearch/zap/v12 v12.0.12
+github.com/blevesearch/zap/v12
+# github.com/blevesearch/zap/v13 v13.0.4
+github.com/blevesearch/zap/v13
+# github.com/blevesearch/zap/v14 v14.0.3
+github.com/blevesearch/zap/v14
+# github.com/blevesearch/zap/v15 v15.0.1
+github.com/blevesearch/zap/v15
+# github.com/couchbase/vellum v1.0.2
+github.com/couchbase/vellum
+github.com/couchbase/vellum/levenshtein
+github.com/couchbase/vellum/regexp
+github.com/couchbase/vellum/utf8
+# github.com/fsnotify/fsnotify v1.4.7
+github.com/fsnotify/fsnotify
+# github.com/glycerine/go-unsnap-stream v0.0.0-20181221182339-f9677308dec2
+github.com/glycerine/go-unsnap-stream
+# github.com/gobuffalo/here v0.6.0
+github.com/gobuffalo/here
+# github.com/golang/protobuf v1.4.3
+## explicit
+github.com/golang/protobuf/proto
+github.com/golang/protobuf/protoc-gen-go/descriptor
+github.com/golang/protobuf/ptypes
+github.com/golang/protobuf/ptypes/any
+github.com/golang/protobuf/ptypes/duration
+github.com/golang/protobuf/ptypes/empty
+github.com/golang/protobuf/ptypes/timestamp
+github.com/golang/protobuf/ptypes/wrappers
+# github.com/golang/snappy v0.0.1
+github.com/golang/snappy
+# github.com/grpc-ecosystem/go-grpc-middleware v1.2.1
+## explicit
+github.com/grpc-ecosystem/go-grpc-middleware
+github.com/grpc-ecosystem/go-grpc-middleware/auth
+github.com/grpc-ecosystem/go-grpc-middleware/util/metautils
+# github.com/grpc-ecosystem/grpc-gateway/v2 v2.0.1
+github.com/grpc-ecosystem/grpc-gateway/v2/internal/httprule
+github.com/grpc-ecosystem/grpc-gateway/v2/runtime
+github.com/grpc-ecosystem/grpc-gateway/v2/utilities
+# github.com/hashicorp/hcl v1.0.0
+github.com/hashicorp/hcl
+github.com/hashicorp/hcl/hcl/ast
+github.com/hashicorp/hcl/hcl/parser
+github.com/hashicorp/hcl/hcl/printer
+github.com/hashicorp/hcl/hcl/scanner
+github.com/hashicorp/hcl/hcl/strconv
+github.com/hashicorp/hcl/hcl/token
+github.com/hashicorp/hcl/json/parser
+github.com/hashicorp/hcl/json/scanner
+github.com/hashicorp/hcl/json/token
+# github.com/jcelliott/lumber v0.0.0-20160324203708-dd349441af25
+## explicit
+github.com/jcelliott/lumber
+# github.com/magiconair/properties v1.8.1
+github.com/magiconair/properties
+# github.com/markbates/pkger v0.17.1
+## explicit
+github.com/markbates/pkger
+github.com/markbates/pkger/here
+github.com/markbates/pkger/internal/maps
+github.com/markbates/pkger/pkging
+github.com/markbates/pkger/pkging/embed
+github.com/markbates/pkger/pkging/mem
+github.com/markbates/pkger/pkging/stdos
+# github.com/mitchellh/mapstructure v1.1.2
+github.com/mitchellh/mapstructure
+# github.com/mschoch/smat v0.2.0
+github.com/mschoch/smat
+# github.com/nanobox-io/golang-scribble v0.0.0-20190309225732-aa3e7c118975
+## explicit
+github.com/nanobox-io/golang-scribble
+# github.com/oklog/ulid v1.3.1
+## explicit
+github.com/oklog/ulid
+# github.com/onsi/ginkgo v1.11.0
+## explicit
+# github.com/onsi/gomega v1.8.1
+## explicit
+# github.com/pelletier/go-toml v1.6.0
+## explicit
+github.com/pelletier/go-toml
+# github.com/philhofer/fwd v1.0.0
+github.com/philhofer/fwd
+# github.com/sdomino/scribble v0.0.0-20200707180004-3cc68461d505
+## explicit
+github.com/sdomino/scribble
+# github.com/spf13/afero v1.2.2
+## explicit
+github.com/spf13/afero
+github.com/spf13/afero/mem
+# github.com/spf13/cast v1.3.1
+## explicit
+github.com/spf13/cast
+# github.com/spf13/jwalterweatherman v1.1.0
+## explicit
+github.com/spf13/jwalterweatherman
+# github.com/spf13/pflag v1.0.5
+github.com/spf13/pflag
+# github.com/spf13/viper v1.7.1
+## explicit
+github.com/spf13/viper
+# github.com/steveyen/gtreap v0.1.0
+github.com/steveyen/gtreap
+# github.com/subosito/gotenv v1.2.0
+github.com/subosito/gotenv
+# github.com/theNorstroem/FuroBaseSpecs v1.12.0
+## explicit
+github.com/theNorstroem/FuroBaseSpecs/dist/pb/furo
+github.com/theNorstroem/FuroBaseSpecs/dist/pb/furo/signatures
+# github.com/theNorstroem/todo-specs v0.0.11
+## explicit
+github.com/theNorstroem/todo-specs/dist/pb/auth
+github.com/theNorstroem/todo-specs/dist/pb/person
+github.com/theNorstroem/todo-specs/dist/pb/task
+github.com/theNorstroem/todo-specs/pkg/grpc-gateway
+github.com/theNorstroem/todo-specs/pkg/grpc-gateway/autoregister
+# github.com/tinylib/msgp v1.1.0
+github.com/tinylib/msgp/msgp
+# github.com/upper/db/v4 v4.0.1
+## explicit
+github.com/upper/db/v4
+github.com/upper/db/v4/internal/adapter
+github.com/upper/db/v4/internal/immutable
+# github.com/veith/fgs-lib v0.4.1
+## explicit
+github.com/veith/fgs-lib/pkg/auth
+github.com/veith/fgs-lib/pkg/configloader
+github.com/veith/fgs-lib/pkg/errors
+github.com/veith/fgs-lib/pkg/hateoas
+github.com/veith/fgs-lib/pkg/microbus
+github.com/veith/fgs-lib/pkg/pagination
+github.com/veith/fgs-lib/pkg/searchengine
+github.com/veith/fgs-lib/pkg/types
+github.com/veith/fgs-lib/pkg/ulid
+github.com/veith/fgs-lib/pkg/webserver
+# github.com/veith/goJWT v1.2.0
+github.com/veith/goJWT
+github.com/veith/goJWT/crypto
+github.com/veith/goJWT/jws
+github.com/veith/goJWT/jwt
+# github.com/willf/bitset v1.1.10
+github.com/willf/bitset
+# go.etcd.io/bbolt v1.3.5
+go.etcd.io/bbolt
+# golang.org/x/crypto v0.0.0-20200820211705-5c72a883971a
+## explicit
+golang.org/x/crypto/bcrypt
+golang.org/x/crypto/blowfish
+# golang.org/x/net v0.0.0-20200904194848-62affa334b73
+golang.org/x/net/context
+golang.org/x/net/http/httpguts
+golang.org/x/net/http2
+golang.org/x/net/http2/hpack
+golang.org/x/net/idna
+golang.org/x/net/internal/timeseries
+golang.org/x/net/trace
+# golang.org/x/sys v0.0.0-20200905004654-be1d3432aa8f
+golang.org/x/sys/internal/unsafeheader
+golang.org/x/sys/unix
+golang.org/x/sys/windows
+# golang.org/x/text v0.3.3
+golang.org/x/text/secure/bidirule
+golang.org/x/text/transform
+golang.org/x/text/unicode/bidi
+golang.org/x/text/unicode/norm
+# google.golang.org/genproto v0.0.0-20201019141844-1ed22bb0c154
+## explicit
+google.golang.org/genproto/googleapis/api/annotations
+google.golang.org/genproto/googleapis/api/httpbody
+google.golang.org/genproto/googleapis/rpc/errdetails
+google.golang.org/genproto/googleapis/rpc/status
+google.golang.org/genproto/googleapis/type/date
+google.golang.org/genproto/protobuf/field_mask
+# google.golang.org/grpc v1.33.2
+## explicit
+google.golang.org/grpc
+google.golang.org/grpc/attributes
+google.golang.org/grpc/backoff
+google.golang.org/grpc/balancer
+google.golang.org/grpc/balancer/base
+google.golang.org/grpc/balancer/grpclb/state
+google.golang.org/grpc/balancer/roundrobin
+google.golang.org/grpc/binarylog/grpc_binarylog_v1
+google.golang.org/grpc/codes
+google.golang.org/grpc/connectivity
+google.golang.org/grpc/credentials
+google.golang.org/grpc/encoding
+google.golang.org/grpc/encoding/proto
+google.golang.org/grpc/grpclog
+google.golang.org/grpc/internal
+google.golang.org/grpc/internal/backoff
+google.golang.org/grpc/internal/balancerload
+google.golang.org/grpc/internal/binarylog
+google.golang.org/grpc/internal/buffer
+google.golang.org/grpc/internal/channelz
+google.golang.org/grpc/internal/credentials
+google.golang.org/grpc/internal/envconfig
+google.golang.org/grpc/internal/grpclog
+google.golang.org/grpc/internal/grpcrand
+google.golang.org/grpc/internal/grpcsync
+google.golang.org/grpc/internal/grpcutil
+google.golang.org/grpc/internal/resolver/dns
+google.golang.org/grpc/internal/resolver/passthrough
+google.golang.org/grpc/internal/serviceconfig
+google.golang.org/grpc/internal/status
+google.golang.org/grpc/internal/syscall
+google.golang.org/grpc/internal/transport
+google.golang.org/grpc/keepalive
+google.golang.org/grpc/metadata
+google.golang.org/grpc/peer
+google.golang.org/grpc/reflection
+google.golang.org/grpc/reflection/grpc_reflection_v1alpha
+google.golang.org/grpc/resolver
+google.golang.org/grpc/serviceconfig
+google.golang.org/grpc/stats
+google.golang.org/grpc/status
+google.golang.org/grpc/tap
+# google.golang.org/grpc/examples v0.0.0-20200902210233-8630cac324bf
+## explicit
+# google.golang.org/protobuf v1.25.0
+## explicit
+google.golang.org/protobuf/encoding/protojson
+google.golang.org/protobuf/encoding/prototext
+google.golang.org/protobuf/encoding/protowire
+google.golang.org/protobuf/internal/descfmt
+google.golang.org/protobuf/internal/descopts
+google.golang.org/protobuf/internal/detrand
+google.golang.org/protobuf/internal/encoding/defval
+google.golang.org/protobuf/internal/encoding/json
+google.golang.org/protobuf/internal/encoding/messageset
+google.golang.org/protobuf/internal/encoding/tag
+google.golang.org/protobuf/internal/encoding/text
+google.golang.org/protobuf/internal/errors
+google.golang.org/protobuf/internal/fieldsort
+google.golang.org/protobuf/internal/filedesc
+google.golang.org/protobuf/internal/filetype
+google.golang.org/protobuf/internal/flags
+google.golang.org/protobuf/internal/genid
+google.golang.org/protobuf/internal/impl
+google.golang.org/protobuf/internal/mapsort
+google.golang.org/protobuf/internal/pragma
+google.golang.org/protobuf/internal/set
+google.golang.org/protobuf/internal/strs
+google.golang.org/protobuf/internal/version
+google.golang.org/protobuf/proto
+google.golang.org/protobuf/reflect/protoreflect
+google.golang.org/protobuf/reflect/protoregistry
+google.golang.org/protobuf/runtime/protoiface
+google.golang.org/protobuf/runtime/protoimpl
+google.golang.org/protobuf/types/descriptorpb
+google.golang.org/protobuf/types/known/anypb
+google.golang.org/protobuf/types/known/durationpb
+google.golang.org/protobuf/types/known/emptypb
+google.golang.org/protobuf/types/known/fieldmaskpb
+google.golang.org/protobuf/types/known/timestamppb
+google.golang.org/protobuf/types/known/wrapperspb
+# gopkg.in/ini.v1 v1.51.1
+## explicit
+gopkg.in/ini.v1
+# gopkg.in/yaml.v2 v2.3.0
+gopkg.in/yaml.v2

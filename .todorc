@@ -1,0 +1,27 @@
+server:
+  webserver:
+    start: true
+    addr: ':10000'
+    dir : 'client'
+  grpc:
+    start: true
+    addr: ':7000'
+    api_base_url: '/api'
+  transcoder:
+    start: true
+    addr: ':7001'
+    grpc_addr: ':7000'
+  jwt:
+    issuer: 'theNorstroem'
+    expiry_duration_in_s: 36000 #gültigkeitsdauer einer anmeldung in sekunden
+messaging:
+  log: false
+modules:
+  all:
+    items_per_page: 35
+    max_items_per_page: 97
+storage:
+  basedir: '/storagedata'
+keys:
+  private: ./keys/sample_key.priv
+  public: ./keys/sample_key.pub

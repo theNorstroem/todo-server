@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1,user-scalable=yes">
+    <meta name="Description" content="This is a sample demo app to show furos capabilites">
+    <link rel="icon" href="assets/icons/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16x16.png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="manifest" href="manifest.json">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700|Roboto:400,300,300italic,400italic,500,500italic,700,700italic&amp;display=swap"
+          rel="stylesheet">
+    <base id="base" href="/">
+    <title>Todos</title>
+    <script>window.APPROOT = "", "serviceWorker" in navigator && (window.addEventListener("load", () => {
+            navigator.serviceWorker.getRegistration().then(e => {
+                e && e.addEventListener("updatefound", () => {
+                    const t = e.installing;
+                    t.addEventListener("statechange", () => {
+                        if ("installed" === t.state) {
+                            const t = {
+                                labelText: "New update installed.", _action: () => {
+                                    e.unregister(), window.location.reload()
+                                }, icon: "clear", _dismiss: () => {
+                                    console.log("closed without reload...")
+                                }, actionButtonText: "restart"
+                            }, n = new Event("open-furo-snackbar-requested", {composed: !0, bubbles: !0});
+                            n.detail = t, this.dispatchEvent(n)
+                        }
+                    })
+                })
+            })
+        }), window.addEventListener("load", (function (e) {
+            navigator.serviceWorker.register("service-worker.js")
+        })));</script>
+    <style>body {
+            margin: 0;
+            min-height: 100vh;
+            background-color: #fff;
+            font-family: Roboto, Noto, sans-serif;
+            font-size: 14px;
+            line-height: 1.5;
+            letter-spacing: .5px
+        }</style>
+    <link rel="preload" href="app-shell-f4f396ce.js" as="script" crossorigin="anonymous">
+    <link rel="preload" href="app-shell-01a3eec3.js" as="script" crossorigin="anonymous">
+</head>
+<body>
+<app-shell></app-shell>
+<noscript>Please enable JavaScript to view this website.</noscript>
+<script>window.importShim = t => import(t.startsWith(".") ? new URL(t, document.baseURI) : t);</script>
+<script>!function () {
+        function e(e, o) {
+            return new Promise((function (t, n) {
+                document.head.appendChild(Object.assign(document.createElement("script"), {
+                    src: e,
+                    onload: t,
+                    onerror: n
+                }, o ? {type: "module"} : void 0))
+            }))
+        }
+
+        var o = [];
+
+        function t() {
+            window.importShim("./app-shell-f4f396ce.js")
+        }
+
+        "noModule" in HTMLScriptElement.prototype && !("importShim" in window) && o.push(e("polyfills/dynamic-import.b745cfc9384367cc18b42bbef2bbdcd9.js", !1)), "attachShadow" in Element.prototype && "getRootNode" in Element.prototype && (!window.ShadyDOM || !window.ShadyDOM.force) || o.push(e("polyfills/webcomponents.f2956532e796a677ef87a9cb17f5f9fc.js", !1)), !("noModule" in HTMLScriptElement.prototype) && "getRootNode" in Element.prototype && o.push(e("polyfills/custom-elements-es5-adapter.84b300ee818dce8b351c7cc7c100bcf7.js", !1)), o.length ? Promise.all(o).then(t) : t()
+    }();</script>
+</body>
+</html>
