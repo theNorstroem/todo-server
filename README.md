@@ -10,7 +10,21 @@ to build a server. Our intention is showing the connections of all parts.
 The build scripts are calling some other repositorys directly (../todo-client, ../todo-specs). We omitted the usage of a
 build pipeline for simplicity.
 
-### Overview
+### What you should see
+
+![](screen0.png)
+
+---
+
+![](screen1.png)
+
+### The API
+
+The api serves the specified services from the **todo-spec** project.
+
+You cann access the api on *:10000* with */api* as prefix or on *:7001* without a prefix.
+
+## Overview
 
 This server exposes
 
@@ -27,7 +41,7 @@ in.
    +-------------------------+
    |                         |
    |       todo-client       |  <-----------------+
-   |                         |                    |
+   |       (webserver)       |                    |
    +-------------------------+                    |
                 |                         +----------------+
     :7001       v                         |   todo-specs   |
