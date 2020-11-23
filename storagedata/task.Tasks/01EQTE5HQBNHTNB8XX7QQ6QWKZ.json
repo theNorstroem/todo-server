@@ -1,0 +1,12 @@
+{
+  "id": "01EQTE5HQBNHTNB8XX7QQ6QWKZ",
+  "display_name": "Entering the task view should refresh the list",
+  "note": "The list is only refreshed on the first time you enter the page or updated some of the contents of a task.",
+  "parent": {
+    "link": {}
+  },
+  "due_date": {},
+  "responsible_person": {
+    "link": {}
+  }
+}

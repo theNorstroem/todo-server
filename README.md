@@ -8,11 +8,18 @@ to build a server. Our intention is showing the connections of all parts.
 The build scripts are calling some other repositorys directly (../todo-client, ../todo-specs). We omitted the usage of a
 build pipeline for simplicity.
 
+### Starting the server:
+
 ### Overview
 
-This server exposes the grpc API for the grpc-gateway (transcoder). Usually this would be all a server has to do.
+This server exposes
 
-For simplicity the transcoder and the client is also built in.
+- the grpc API for the grpc-gateway :7000
+- the grpc gateway (aka transcoder) :7001
+- the webserver to serve the client :10000
+
+Usually this would be done on a server for each service, but for **simplicity** the transcoder and the client is built
+in.
 
 ```
 

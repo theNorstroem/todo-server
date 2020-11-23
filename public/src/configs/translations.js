@@ -68,10 +68,10 @@ export const Translations = {
       furo: {
           fieldconstraint: {
               map: {
-          headertext: 'Constraints',
-        },
+                  headertext: 'Constraints',
+              },
+          },
       },
-    },
   },
   de: {
     save: 'Speichern',

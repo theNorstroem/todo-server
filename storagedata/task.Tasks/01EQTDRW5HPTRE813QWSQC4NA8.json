@@ -1,0 +1,27 @@
+{
+  "id": "01EQTDRW5HPTRE813QWSQC4NA8",
+  "display_name": "Adding involved persons",
+  "note": "As soon the collection dropdown is ok, you can begin with this",
+  "parent": {
+    "id": "01EQT7XW0RWYND8D7JZK0WWKDG",
+    "display_name": "Test collection dropdown",
+    "link": {
+      "rel": "list",
+      "method": "GET",
+      "href": "/api/tasks",
+      "type": "task.Task",
+      "service": "Tasks"
+    }
+  },
+  "due_date": {},
+  "responsible_person": {
+    "id": "01EQC5PTQAA9B05JBBQB33985B",
+    "link": {
+      "rel": "list",
+      "method": "GET",
+      "href": "/api/persons",
+      "type": "person.Person",
+      "service": "Persons"
+    }
+  }
+}

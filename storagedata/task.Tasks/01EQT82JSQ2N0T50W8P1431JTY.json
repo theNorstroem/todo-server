@@ -1,0 +1,21 @@
+{
+  "id": "01EQT82JSQ2N0T50W8P1431JTY",
+  "display_name": "Add translations",
+  "note": "We should add translations",
+  "parent": {
+    "link": {}
+  },
+  "checklist": [
+    "EN Translation",
+    "DE Translation"
+  ],
+  "due_date": {
+    "year": 2020,
+    "month": 11,
+    "day": 29
+  },
+  "responsible_person": {
+    "id": "01EQEBRKK241ZGW2PRZ1H4FWHT",
+    "link": {}
+  }
+}

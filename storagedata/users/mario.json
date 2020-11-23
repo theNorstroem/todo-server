@@ -1,0 +1,8 @@
+{
+  "username": "mario",
+  "pwhash": "$2a$05$HTK.eOKJi53MVgB9kDQ.EuRXLj05Adli1zPYWXshC4CYAcMNruPmG",
+  "roles": [
+    "user",
+    "manager"
+  ]
+}

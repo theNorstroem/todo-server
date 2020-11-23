@@ -377,8 +377,6 @@ github.com/theNorstroem/FuroBaseSpecs v1.11.8 h1:rAWZW/2bJ9x6hblHcx4j3DOQW4FOFH0
 github.com/theNorstroem/FuroBaseSpecs v1.11.8/go.mod h1:5agi7AM0Te58qeTMmiv56Ducy8yhQiganpp2Ra6ZnFY=
 github.com/theNorstroem/FuroBaseSpecs v1.12.0 h1:yiWU3H62j+Tpy5VoJ63ltpG9hpl7jt2bFRT4BeL4DZc=
 github.com/theNorstroem/FuroBaseSpecs v1.12.0/go.mod h1:5agi7AM0Te58qeTMmiv56Ducy8yhQiganpp2Ra6ZnFY=
-github.com/theNorstroem/todo-specs v0.0.10 h1:cwzfZmDwOfQ9pxE5iQ4g55rbmbePXSwIlWK932VIH44=
-github.com/theNorstroem/todo-specs v0.0.10/go.mod h1:ci6nGPfRhfziRn4p5Wbd7bmVA82eYtTP1hDggX+foug=
 github.com/theNorstroem/todo-specs v0.0.11 h1:EZ63eLXqCO/QFh2C2pM+3j3rJHN+UJ3r2z7HDfaTw+o=
 github.com/theNorstroem/todo-specs v0.0.11/go.mod h1:ci6nGPfRhfziRn4p5Wbd7bmVA82eYtTP1hDggX+foug=
 github.com/tinylib/msgp v1.1.0 h1:9fQd+ICuRIu/ue4vxJZu6/LzxN0HwMds2nq/0cFvxHU=
@@ -387,10 +385,6 @@ github.com/tmc/grpc-websocket-proxy v0.0.0-20190109142713-0ad062ec5ee5/go.mod h1
 github.com/ugorji/go/codec v0.0.0-20181204163529-d75b2dcb6bc8/go.mod h1:VFNgLljTbGfSG7qAOspJ7OScBnGdDN/yBr0sguwnwf0=
 github.com/upper/db/v4 v4.0.1 h1:mHmGBffne8fdiJjmtYXCuHSghO9027q4TJA9oGP50OM=
 github.com/upper/db/v4 v4.0.1/go.mod h1:pyAEIpPfnhpvO4zVbyUI+asgZjppZlq705fOFTyUOso=
-github.com/veith/fgs-lib v0.3.1 h1:vsVW15v13wMhF6J+yZDkXbCtqbk/qBx0sacEGzsu4to=
-github.com/veith/fgs-lib v0.3.1/go.mod h1:T8K7EQZmXDPsu7gjF0Wqsndi7mKGEdSQkTyEfNFywzY=
-github.com/veith/fgs-lib v0.4.0 h1:g2v7kn3honSVxtVCYsZ1MZm2DpbfHaX8WjxkO1YKHBI=
-github.com/veith/fgs-lib v0.4.0/go.mod h1:T8K7EQZmXDPsu7gjF0Wqsndi7mKGEdSQkTyEfNFywzY=
 github.com/veith/fgs-lib v0.4.1 h1:wHV57BAxMhLySryZz6O81FxjDlppw9STJ3SE28/R4Go=
 github.com/veith/fgs-lib v0.4.1/go.mod h1:T8K7EQZmXDPsu7gjF0Wqsndi7mKGEdSQkTyEfNFywzY=
 github.com/veith/goJWT v1.2.0 h1:qfHqaA/UPtMF02epCmKHPi1jmFyFtASEjENddUPsRSU=
