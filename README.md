@@ -2,13 +2,13 @@
 
 user: demo password: 1234
 
+To start the server just type `go run cmd/server/main.go` and visit http://localhost:10000.
+
 This is the server for the example app. This repo is made for educational purposes only. It is not our idea to show how
 to build a server. Our intention is showing the connections of all parts.
 
 The build scripts are calling some other repositorys directly (../todo-client, ../todo-specs). We omitted the usage of a
 build pipeline for simplicity.
-
-### Starting the server:
 
 ### Overview
 
