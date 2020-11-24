@@ -5,10 +5,21 @@ user: demo password: 1234
 To start the server just type `go run cmd/server/main.go` and visit http://localhost:10000.
 
 This is the server for the example app. This repo is made for educational purposes only. It is not our idea to show how
-to build a server. Our intention is showing the connections of all parts.
+to build a server. Our intention is showing the interoperability of all parts.
 
-The build scripts are calling some other repositorys directly (../todo-client, ../todo-specs). We omitted the usage of a
-build pipeline for simplicity.
+The build scripts are calling some other repositorys directly (
+../[todo-client](https://github.com/theNorstroem/todo-client),
+../[todo-specs](https://github.com/theNorstroem/todo-specs)). We omitted the usage of a build pipeline for simplicity.
+
+Therfore you have to check them out to the same directory like you checked out the server project (not inside the server
+project).
+
+``` 
+todo app
+  ├── todo-server
+  ├── todo-specs
+  └── todo-client  
+```
 
 ### What you should see
 
