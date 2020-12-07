@@ -43,9 +43,6 @@ func main() {
 	task.RegisterApplicationModule()
 	task_grpcHandler.RegisterGrpcApis()
 
-	demo.RegisterApplicationModule()
-	demo_grpcHandler.RegisterGrpcApis()
-
 	person.RegisterApplicationModule()
 	person_grpcHandler.RegisterGrpcApis()
 
