@@ -12,18 +12,18 @@ import (
 )
 
 type Service interface {
-	//List tasks with pagination.
+	//// List tasks with pagination.
 	ListTasks(ctx context.Context, options types.ListingOptions) ([]*taskpb.Task, types.ListingMetas, error)
-	//Returns a single task.
+	//// Returns a single task.
 	GetTask(ctx context.Context, idTsk string) (*taskpb.Task, error)
-	//Use this to create new tasks.
+	//// Use this to create new tasks.
 	CreateTask(ctx context.Context, data *taskpb.Task) (id string, err error)
-	//Use this to update existing tasks. PATCH is also supported
+	//// Use this to update existing tasks. PATCH is also supported
 	UpdateTask(ctx context.Context, data *taskpb.Task, idTsk string) (*taskpb.Task, error)
-	//Use this to delete existing tasks.
+	//// Use this to delete existing tasks.
 	DeleteTask(ctx context.Context, idTsk string) error
-	//Use this to delete ALL tasks.
+	//// Use this to delete ALL tasks.
 	DeleteAllTaskss(ctx context.Context) error
-	//Custom methods are always POST.
+	//// Custom methods are always POST.
 	SuspendTask(ctx context.Context, idTsk string) error
 }

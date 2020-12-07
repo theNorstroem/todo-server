@@ -144,7 +144,7 @@ github.com/spf13/cast
 # github.com/spf13/jwalterweatherman v1.1.0
 ## explicit
 github.com/spf13/jwalterweatherman
-# github.com/spf13/pflag v1.0.5
+# github.com/spf13/pflag v1.0.3
 github.com/spf13/pflag
 # github.com/spf13/viper v1.7.1
 ## explicit
@@ -157,7 +157,7 @@ github.com/subosito/gotenv
 ## explicit
 github.com/theNorstroem/FuroBaseSpecs/dist/pb/furo
 github.com/theNorstroem/FuroBaseSpecs/dist/pb/furo/signatures
-# github.com/theNorstroem/todo-specs v0.0.11
+# github.com/theNorstroem/todo-specs v0.0.13
 ## explicit
 github.com/theNorstroem/todo-specs/dist/pb/auth
 github.com/theNorstroem/todo-specs/dist/pb/person

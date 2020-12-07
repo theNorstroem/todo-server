@@ -4,7 +4,6 @@ package Tasks_grpc
 
 import (
 	"context"
-	furopb "github.com/theNorstroem/FuroBaseSpecs/dist/pb/furo"
 	"github.com/theNorstroem/FuroBaseSpecs/dist/pb/furo/signatures"
 	"github.com/theNorstroem/todo-specs/dist/pb/task"
 	"github.com/veith/fgs-lib/pkg/hateoas"
@@ -12,20 +11,12 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/protobuf/types/known/emptypb"
-	"time"
 )
 
 // CreateTask handles the request that comes on:
 // /tasks
 // Use this to create new tasks.
 func (s ServiceServer) CreateTask(ctx context.Context, request *taskpb.CreateTaskRequest) (*signaturespb.EmptyEntity, error) {
-	// validate against specs
-	time.Sleep(1 * time.Second)
-	err := validateAgainstSpec(ctx, request.Body)
-	if err != nil {
-		return nil, err
-	}
-
 	id, err := s.Tasks.CreateTask(ctx, request.Body)
 	if err != nil {
 		return nil, err
@@ -39,18 +30,6 @@ func (s ServiceServer) CreateTask(ctx context.Context, request *taskpb.CreateTas
 		"/tasks/"+id,
 		"DELETE", "PATCH",
 	)
-
-	// Append create link
-	entity.Links = append(entity.Links, &furopb.Link{
-		Href: hateoas.BaseUrlFromContext(ctx) + hateoas.ReplacePaternWithIdmap("/tasks", hateoas.Idmap{
-			"tsk": id,
-		}),
-		Rel:     "create",
-		Method:  "POST",
-		Service: "Tasks",
-		Type:    "task.Task",
-	})
-
 	return entity, err
 }
 

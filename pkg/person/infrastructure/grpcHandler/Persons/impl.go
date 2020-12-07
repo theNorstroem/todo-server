@@ -34,7 +34,7 @@ func (s ServiceServer) CreatePerson(ctx context.Context, request *personpb.Creat
 }
 
 // DeletePerson handles the delete request that comes on:
-// /persons/{pn}
+// /persons/{prs}
 // We use this to disable a person in the list, we do not delete them.
 func (s ServiceServer) DeletePerson(ctx context.Context, request *personpb.DeletePersonRequest) (*emptypb.Empty, error) {
 
@@ -48,15 +48,15 @@ func (s ServiceServer) DeletePerson(ctx context.Context, request *personpb.Delet
 }
 
 // FirePerson handles the delete request that comes on:
-// URL: /persons/{pn}:ferment
-// Fireing some persons can increase the performance of the other persons POST. Do not use this to much.
+// URL: /persons/{prs}:ferment
+// Fireing some persons can increase the performance of the other persons POST. Do not use this to much. The big downside is, that you have to assign their work to somone other.
 func (s ServiceServer) FirePerson(ctx context.Context, request *personpb.FirePersonRequest) (*emptypb.Empty, error) {
 	// no autogeneration at the moment :-(
 	panic("implement me")
 }
 
 // GetPerson handles the get request that comes on:
-// /persons/{pn}
+// /persons/{prs}
 // Returns a single person.
 func (s ServiceServer) GetPerson(ctx context.Context, request *personpb.GetPersonRequest) (*personpb.PersonEntity, error) {
 
@@ -72,8 +72,8 @@ func (s ServiceServer) GetPerson(ctx context.Context, request *personpb.GetPerso
 		Links: HTS.EntityHTS(
 			ctx,
 			"person.Person",
-			hateoas.Idmap{"pn": item.Id},
-			"/persons/{pn}",
+			hateoas.Idmap{"prs": item.Id},
+			"/persons/{prs}",
 			"DELETE", "PATCH",
 		),
 	}
@@ -97,8 +97,8 @@ func (s ServiceServer) ListPersons(ctx context.Context, request *personpb.ListPe
 				Links: HTS.EntityHTS(
 					ctx,
 					"person.Person",
-					hateoas.Idmap{"pn": item.Id},
-					"/persons/{pn}",
+					hateoas.Idmap{"prs": item.Id},
+					"/persons/{prs}",
 					"DELETE", "PATCH",
 				),
 			})
@@ -116,7 +116,7 @@ func (s ServiceServer) ListPersons(ctx context.Context, request *personpb.ListPe
 }
 
 // UpdatePerson handles the update request that comes on:
-// PUT /persons/{pn}
+// PUT /persons/{prs}
 // Use this to update existing persons. PATCH is also supported
 func (s ServiceServer) UpdatePerson(ctx context.Context, request *personpb.UpdatePersonRequest) (*personpb.PersonEntity, error) {
 
@@ -141,8 +141,8 @@ func (s ServiceServer) UpdatePerson(ctx context.Context, request *personpb.Updat
 		Links: HTS.EntityHTS(
 			ctx,
 			"person.Person",
-			hateoas.Idmap{"pn": request.Prs},
-			"/persons/{pn}",
+			hateoas.Idmap{"prs": request.Prs},
+			"/persons/{prs}",
 			"DELETE", "PATCH",
 		),
 	}, err

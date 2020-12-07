@@ -34,10 +34,10 @@ func RegisterApplicationModule() {
 		// storage = dacl.NewStorage()
 		break
 	case "MOCK": // MOCK will store data in JSON files saved on disk
-		storage, _ = mock.NewStorage(messagebus)
+		storage, _ = mock.NewStorage()
 		break
 	default:
-		storage, _ = mock.NewStorage(messagebus)
+		storage, _ = mock.NewStorage()
 	}
 
 	// connect the storage handlers for Tasks

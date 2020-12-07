@@ -19,7 +19,7 @@ require (
 	github.com/spf13/viper v1.7.1
 	github.com/theNorstroem/FuroBaseSpecs v1.12.0
 	// Specs
-	github.com/theNorstroem/todo-specs v0.0.11
+	github.com/theNorstroem/todo-specs v0.0.13
 	//-----------------------------------------
 	github.com/upper/db/v4 v4.0.1
 
@@ -27,7 +27,7 @@ require (
 	github.com/veith/fgs-lib v0.4.1
 	//------------------------------
 	golang.org/x/crypto v0.0.0-20200820211705-5c72a883971a // indirect
-	google.golang.org/genproto v0.0.0-20201019141844-1ed22bb0c154
+	google.golang.org/genproto v0.0.0-20201019141844-1ed22bb0c154 // indirect
 	google.golang.org/grpc v1.33.2
 	google.golang.org/grpc/examples v0.0.0-20200902210233-8630cac324bf // indirect
 	google.golang.org/protobuf v1.25.0

@@ -1,0 +1,15 @@
+furoc: #rename file to .furoc to enable
+  Inputs:
+    - ../todo-specs
+  Commands:
+    - Plugin: furoc-gen-server
+      PluginName: furoc-gen-server
+      Branch: furoc
+      Args:
+        - mod=github.com/theNorstroem/todo-server
+        - base=/pkg #the imports are mod + base
+        - debugfileout=./debug.yaml
+        - service=person.Persons
+        - service=task.Tasks
+        - service=demo.Demos
+      OutputDir: ./pkg

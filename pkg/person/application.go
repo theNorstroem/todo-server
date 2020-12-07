@@ -5,8 +5,6 @@ package person
 import (
 	"github.com/theNorstroem/todo-server/pkg/person/core"
 	Persons "github.com/theNorstroem/todo-server/pkg/person/core/Persons"
-	"github.com/theNorstroem/todo-server/pkg/person/infrastructure/eventHandler"
-
 	// "github.com/theNorstroem/todo-server/pkg/person/infrastructure/eventhandler"
 	"github.com/spf13/viper"
 	"github.com/theNorstroem/todo-server/internal/infrastructure"
@@ -45,6 +43,6 @@ func RegisterApplicationModule() {
 	// connect the storage handlers for Persons
 	DomainServices.Persons = Persons.NewService(storage, messagebus)
 
-	eventHandler.RegisterSubscriptions(messagebus, &DomainServices)
+	//eventhandler.RegisterSubscriptions(messagebus, &DomainServices)
 
 }

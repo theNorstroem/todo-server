@@ -26,27 +26,27 @@ func (s *Storage) CreatePerson(ctx context.Context, data *personpb.Person) (id s
 
 // DeletePerson deletes a
 // We use this to disable a person in the list, we do not delete them.
-func (s *Storage) DeletePerson(ctx context.Context, idPn string) error {
-	err := s.db.Delete(CollectionPersons, idPn)
+func (s *Storage) DeletePerson(ctx context.Context, idPrs string) error {
+	err := s.db.Delete(CollectionPersons, idPrs)
 	if err != nil {
 		return errors.ErrNotFound
 	}
-	searchengine.DeleteFromIndex(CollectionPersons, idPn)
+	searchengine.DeleteFromIndex(CollectionPersons, idPrs)
 	return nil
 }
 
 // FirePerson deletes all
-// Fireing some persons can increase the performance of the other persons POST. Do not use this to much.
-func (s *Storage) FirePerson(ctx context.Context, idPn string) error {
+// Fireing some persons can increase the performance of the other persons POST. Do not use this to much. The big downside is, that you have to assign their work to somone other.
+func (s *Storage) FirePerson(ctx context.Context, idPrs string) error {
 	panic("implement me")
 }
 
 // Returns a single person.
-func (s *Storage) GetPerson(ctx context.Context, idPn string) (*personpb.Person, error) {
+func (s *Storage) GetPerson(ctx context.Context, idPrs string) (*personpb.Person, error) {
 
 	var item *personpb.Person
 
-	if err := s.db.Read(CollectionPersons, idPn, &item); err != nil {
+	if err := s.db.Read(CollectionPersons, idPrs, &item); err != nil {
 		return item, errors.ErrNotFound
 	}
 
@@ -77,13 +77,13 @@ func (s *Storage) ListPersons(ctx context.Context, options types.ListingOptions)
 
 //  UpdatePerson updates and reindex a
 // Use this to update existing persons. PATCH is also supported
-func (s *Storage) UpdatePerson(ctx context.Context, data *personpb.Person, idPn string) (*personpb.Person, error) {
+func (s *Storage) UpdatePerson(ctx context.Context, data *personpb.Person, idPrs string) (*personpb.Person, error) {
 
-	data.Id = idPn
-	if err := s.db.Write(CollectionPersons, idPn, data); err != nil {
+	data.Id = idPrs
+	if err := s.db.Write(CollectionPersons, idPrs, data); err != nil {
 		return &personpb.Person{}, err
 	}
-	searchengine.Index(CollectionPersons, idPn, data)
+	searchengine.Index(CollectionPersons, idPrs, data)
 
 	return data, nil
 }

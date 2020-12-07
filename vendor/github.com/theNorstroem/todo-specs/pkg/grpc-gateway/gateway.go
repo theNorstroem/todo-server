@@ -5,9 +5,9 @@ import (
 	"github.com/grpc-ecosystem/grpc-gateway/v2/runtime"
 	"github.com/theNorstroem/todo-specs/pkg/grpc-gateway/autoregister"
 	_ "google.golang.org/genproto/googleapis/rpc/errdetails"
+	"google.golang.org/protobuf/encoding/protojson"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"
-	"google.golang.org/protobuf/encoding/protojson"
 	"net/http"
 )
 
@@ -22,7 +22,7 @@ func incomingMatcher(headerName string) (mdName string, ok bool) {
 }
 
 // setzt die api-base-url für das backend
-func addBaseUrl(ctx context.Context, request *http.Request) metadata.MD {
+func addBaseUrl (ctx context.Context, request *http.Request) metadata.MD {
 	return metadata.New(map[string]string{
 		"api-base-url": "//" + request.Host + "/api",
 	})

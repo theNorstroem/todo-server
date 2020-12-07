@@ -6,7 +6,6 @@ import (
 	"github.com/sdomino/scribble"
 	"github.com/spf13/viper"
 	Tasks_if "github.com/theNorstroem/todo-server/pkg/task/interfaces/Tasks"
-	"github.com/veith/fgs-lib/pkg/microbus"
 	"os"
 )
 
@@ -18,16 +17,13 @@ const (
 
 // Storage stores  data in JSON files
 type Storage struct {
-	db  *scribble.Driver
-	bus *microbus.EventBus
+	db *scribble.Driver
 }
 
 // NewStorage returns a new File  storage
-func NewStorage(bus *microbus.EventBus) (*Storage, error) {
+func NewStorage() (*Storage, error) {
 	var err error
 	s := new(Storage)
-	s.bus = bus
-	registerSubscriptions(s.bus)
 	cwd, _ := os.Getwd()
 	s.db, err = scribble.New(cwd+viper.GetString("storage.basedir"), nil)
 	if err != nil {

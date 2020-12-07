@@ -30,13 +30,13 @@ const (
 // of the legacy proto package is being used.
 const _ = proto.ProtoPackageIsVersion4
 
-// A checkbox item
+// The checkboxItem is not used at the moment, we plan to replace the repeated string (field checklist) of the task with this type.
 type CheckboxItem struct {
 	state         protoimpl.MessageState
 	sizeCache     protoimpl.SizeCache
 	unknownFields protoimpl.UnknownFields
 
-	// We use this field label the task
+	// This is the description of the checkbox item
 	DisplayName string `protobuf:"bytes,2,opt,name=display_name,json=displayName,proto3" json:"display_name,omitempty"`
 	// Sample
 	Done bool `protobuf:"varint,3,opt,name=done,proto3" json:"done,omitempty"`
