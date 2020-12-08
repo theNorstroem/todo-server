@@ -19,7 +19,7 @@ require (
 	github.com/spf13/viper v1.7.1
 	github.com/theNorstroem/FuroBaseSpecs v1.12.0
 	// Specs
-	github.com/theNorstroem/todo-specs v0.0.13
+	github.com/theNorstroem/todo-specs v0.2.0
 	//-----------------------------------------
 	github.com/upper/db/v4 v4.0.1
 
