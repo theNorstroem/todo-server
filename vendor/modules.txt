@@ -158,7 +158,7 @@ github.com/subosito/gotenv
 github.com/theNorstroem/FuroBaseSpecs/dist/pb/furo
 github.com/theNorstroem/FuroBaseSpecs/dist/pb/furo/fat
 github.com/theNorstroem/FuroBaseSpecs/dist/pb/furo/signatures
-# github.com/theNorstroem/todo-specs v0.2.0
+# github.com/theNorstroem/todo-specs v0.2.0-fat1
 ## explicit
 github.com/theNorstroem/todo-specs/dist/pb/auth
 github.com/theNorstroem/todo-specs/dist/pb/person

@@ -387,6 +387,8 @@ github.com/theNorstroem/todo-specs v0.0.14/go.mod h1:SwIpD3vQa6o9jVFK3MHG+1nbveq
 github.com/theNorstroem/todo-specs v0.0.15 h1:UPWDYJTJtb0F0hknhLrIw4XcaK7lPT4uE1r5r4E2pTE=
 github.com/theNorstroem/todo-specs v0.0.15/go.mod h1:SwIpD3vQa6o9jVFK3MHG+1nbveqRwoUiRO4tj2LAUVc=
 github.com/theNorstroem/todo-specs v0.1.0 h1:4sNj0bEfxnCMGRaHDTz7t0foK0OF1rxbFSTB4JQs1vk=
+github.com/theNorstroem/todo-specs v0.2.0-fat1 h1:W1UqskHj4zC+7VVl6qTsi3Dq5W2SkIRqRBmX2e+Oo30=
+github.com/theNorstroem/todo-specs v0.2.0-fat1/go.mod h1:SwIpD3vQa6o9jVFK3MHG+1nbveqRwoUiRO4tj2LAUVc=
 github.com/theNorstroem/todo-specs v0.2.0 h1:9JwdU7Zc98l/uQUWnCaSxBnxywxLvj3TqwKxQ6YseDI=
 github.com/theNorstroem/todo-specs v0.2.0/go.mod h1:SwIpD3vQa6o9jVFK3MHG+1nbveqRwoUiRO4tj2LAUVc=
 github.com/tinylib/msgp v1.1.0 h1:9fQd+ICuRIu/ue4vxJZu6/LzxN0HwMds2nq/0cFvxHU=

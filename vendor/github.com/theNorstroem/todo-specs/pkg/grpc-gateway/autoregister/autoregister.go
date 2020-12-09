@@ -1,17 +1,17 @@
 package autoregister
 
 import (
-    "context"
+	"context"
 	"github.com/grpc-ecosystem/grpc-gateway/v2/runtime"
 	//auth.AuthSession
 	authpb "github.com/theNorstroem/todo-specs/dist/pb/auth"
-    
+
 	//person.Persons
 	personpb "github.com/theNorstroem/todo-specs/dist/pb/person"
-    
+
 	//task.Tasks
 	taskpb "github.com/theNorstroem/todo-specs/dist/pb/task"
-    
+
 	"google.golang.org/grpc"
 )
 
@@ -35,7 +35,6 @@ func RegisterAllEndpoints(grpcBackendAddr string, ctx context.Context, mux *runt
 		return err
 	}
 
-
-//installed services
+	//installed services
 	return err
 }
