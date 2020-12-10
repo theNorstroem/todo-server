@@ -378,6 +378,8 @@ github.com/theNorstroem/FuroBaseSpecs v1.11.8 h1:rAWZW/2bJ9x6hblHcx4j3DOQW4FOFH0
 github.com/theNorstroem/FuroBaseSpecs v1.11.8/go.mod h1:5agi7AM0Te58qeTMmiv56Ducy8yhQiganpp2Ra6ZnFY=
 github.com/theNorstroem/FuroBaseSpecs v1.12.0 h1:yiWU3H62j+Tpy5VoJ63ltpG9hpl7jt2bFRT4BeL4DZc=
 github.com/theNorstroem/FuroBaseSpecs v1.12.0/go.mod h1:5agi7AM0Te58qeTMmiv56Ducy8yhQiganpp2Ra6ZnFY=
+github.com/theNorstroem/FuroBaseSpecs v1.13.1 h1:0QQVigHQFh/Jj5AV1BQ6xPzZjCcH+iL8jmpGhYw8iBc=
+github.com/theNorstroem/FuroBaseSpecs v1.13.1/go.mod h1:5agi7AM0Te58qeTMmiv56Ducy8yhQiganpp2Ra6ZnFY=
 github.com/theNorstroem/todo-specs v0.0.11 h1:EZ63eLXqCO/QFh2C2pM+3j3rJHN+UJ3r2z7HDfaTw+o=
 github.com/theNorstroem/todo-specs v0.0.11/go.mod h1:ci6nGPfRhfziRn4p5Wbd7bmVA82eYtTP1hDggX+foug=
 github.com/theNorstroem/todo-specs v0.0.13 h1:NYe643t+5B0lqea0bfRME7kHEIvUhtVvTE9wGWPhfC8=
@@ -387,6 +389,10 @@ github.com/theNorstroem/todo-specs v0.0.14/go.mod h1:SwIpD3vQa6o9jVFK3MHG+1nbveq
 github.com/theNorstroem/todo-specs v0.0.15 h1:UPWDYJTJtb0F0hknhLrIw4XcaK7lPT4uE1r5r4E2pTE=
 github.com/theNorstroem/todo-specs v0.0.15/go.mod h1:SwIpD3vQa6o9jVFK3MHG+1nbveqRwoUiRO4tj2LAUVc=
 github.com/theNorstroem/todo-specs v0.1.0 h1:4sNj0bEfxnCMGRaHDTz7t0foK0OF1rxbFSTB4JQs1vk=
+github.com/theNorstroem/todo-specs v0.2.0-fat1 h1:W1UqskHj4zC+7VVl6qTsi3Dq5W2SkIRqRBmX2e+Oo30=
+github.com/theNorstroem/todo-specs v0.2.0-fat1/go.mod h1:SwIpD3vQa6o9jVFK3MHG+1nbveqRwoUiRO4tj2LAUVc=
+github.com/theNorstroem/todo-specs v0.2.0-fat2 h1:F2ojmN4zQkLwbM/CAJyqMQYqPi6DTp0FoLdH0WbtSK8=
+github.com/theNorstroem/todo-specs v0.2.0-fat2/go.mod h1:SwIpD3vQa6o9jVFK3MHG+1nbveqRwoUiRO4tj2LAUVc=
 github.com/theNorstroem/todo-specs v0.2.0 h1:9JwdU7Zc98l/uQUWnCaSxBnxywxLvj3TqwKxQ6YseDI=
 github.com/theNorstroem/todo-specs v0.2.0/go.mod h1:SwIpD3vQa6o9jVFK3MHG+1nbveqRwoUiRO4tj2LAUVc=
 github.com/tinylib/msgp v1.1.0 h1:9fQd+ICuRIu/ue4vxJZu6/LzxN0HwMds2nq/0cFvxHU=

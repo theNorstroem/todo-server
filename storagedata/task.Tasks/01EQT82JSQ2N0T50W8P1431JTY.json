@@ -1,7 +1,9 @@
 {
   "id": "01EQT82JSQ2N0T50W8P1431JTY",
   "display_name": "Add translations",
-  "note": "We should add translations",
+  "note": {
+    "value": "We should add translations"
+  },
   "parent": {
     "link": {}
   },

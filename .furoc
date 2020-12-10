@@ -11,5 +11,4 @@ furoc: #rename file to .furoc to enable
         - debugfileout=./debug.yaml
         - service=person.Persons
         - service=task.Tasks
-        - service=demo.Demos
       OutputDir: ./pkg

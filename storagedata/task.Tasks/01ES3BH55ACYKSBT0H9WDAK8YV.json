@@ -1,0 +1,15 @@
+{
+  "id": "01ES3BH55ACYKSBT0H9WDAK8YV",
+  "display_name": "Entering the task view should refresh the list...",
+  "note": {
+    "value": "The list is only refreshed on the first time you enter the page or updated some of the contents of a task..",
+    "attributes": {
+      "pristine": "false"
+    }
+  },
+  "responsible_person": {
+    "id": "01EQC5PTQAA9B05JBBQB33985B",
+    "display_name": "Dev 1",
+    "link": {}
+  }
+}
