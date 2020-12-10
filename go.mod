@@ -17,7 +17,7 @@ require (
 	github.com/spf13/cast v1.3.1 // indirect
 	github.com/spf13/jwalterweatherman v1.1.0 // indirect
 	github.com/spf13/viper v1.7.1
-	github.com/theNorstroem/FuroBaseSpecs v1.12.0
+	github.com/theNorstroem/FuroBaseSpecs v1.13.1
 	// Specs
 	github.com/theNorstroem/todo-specs v0.2.0-fat2
 	//-----------------------------------------

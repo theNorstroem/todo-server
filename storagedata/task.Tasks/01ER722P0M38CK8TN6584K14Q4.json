@@ -1,12 +1,10 @@
 {
-  "id": "01EQTDRW5HPTRE813QWSQC4NA8",
-  "display_name": "Adding involved persons",
+  "id": "01ER722P0M38CK8TN6584K14Q4",
+  "display_name": "neu",
   "note": {
-    "value": "As soon the collection dropdown is ok, you can begin with this"
+    "value": "neu Should come with the next release of furo-collection"
   },
   "parent": {
-    "id": "01EQT7XW0RWYND8D7JZK0WWKDG",
-    "display_name": "Test collection dropdown",
     "link": {
       "rel": "list",
       "method": "GET",
@@ -17,7 +15,6 @@
   },
   "due_date": {},
   "responsible_person": {
-    "id": "01EQC5PTQAA9B05JBBQB33985B",
     "link": {
       "rel": "list",
       "method": "GET",

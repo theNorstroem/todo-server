@@ -378,6 +378,8 @@ github.com/theNorstroem/FuroBaseSpecs v1.11.8 h1:rAWZW/2bJ9x6hblHcx4j3DOQW4FOFH0
 github.com/theNorstroem/FuroBaseSpecs v1.11.8/go.mod h1:5agi7AM0Te58qeTMmiv56Ducy8yhQiganpp2Ra6ZnFY=
 github.com/theNorstroem/FuroBaseSpecs v1.12.0 h1:yiWU3H62j+Tpy5VoJ63ltpG9hpl7jt2bFRT4BeL4DZc=
 github.com/theNorstroem/FuroBaseSpecs v1.12.0/go.mod h1:5agi7AM0Te58qeTMmiv56Ducy8yhQiganpp2Ra6ZnFY=
+github.com/theNorstroem/FuroBaseSpecs v1.13.1 h1:0QQVigHQFh/Jj5AV1BQ6xPzZjCcH+iL8jmpGhYw8iBc=
+github.com/theNorstroem/FuroBaseSpecs v1.13.1/go.mod h1:5agi7AM0Te58qeTMmiv56Ducy8yhQiganpp2Ra6ZnFY=
 github.com/theNorstroem/todo-specs v0.0.11 h1:EZ63eLXqCO/QFh2C2pM+3j3rJHN+UJ3r2z7HDfaTw+o=
 github.com/theNorstroem/todo-specs v0.0.11/go.mod h1:ci6nGPfRhfziRn4p5Wbd7bmVA82eYtTP1hDggX+foug=
 github.com/theNorstroem/todo-specs v0.0.13 h1:NYe643t+5B0lqea0bfRME7kHEIvUhtVvTE9wGWPhfC8=

@@ -1,7 +1,9 @@
 {
   "id": "01EQTE358WXG56F1XWYGJBS206",
   "display_name": "Pagination on \"Current Tasks\" widget",
-  "note": "The pagination should be implemented or removed. Having disabled navigation buttons irritates the users.",
+  "note": {
+    "value": "The pagination should be implemented or removed. Having disabled navigation buttons irritates the users."
+  },
   "parent": {
     "link": {}
   },

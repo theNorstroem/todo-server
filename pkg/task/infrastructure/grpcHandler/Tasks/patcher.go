@@ -21,8 +21,8 @@ func PatchWithUpdateMask(item *taskpb.Task, request *taskpb.UpdateTaskRequest) *
 				item.DisplayName = in.DisplayName
 			}
 
-			if "note" == field {
-				item.Note = in.Note
+			if "note.value" == field {
+				item.Note.Value = in.Note.Value
 			}
 
 			if "parent.id" == field {
@@ -58,7 +58,7 @@ func PatchWithUpdateMask(item *taskpb.Task, request *taskpb.UpdateTaskRequest) *
 			}
 
 			if "responsible_person.id" == field {
-				item.ResponsiblePerson.Id = in.ResponsiblePerson.Id
+				item.ResponsiblePerson = in.ResponsiblePerson
 			}
 
 			if "responsible_person.display_name" == field {
