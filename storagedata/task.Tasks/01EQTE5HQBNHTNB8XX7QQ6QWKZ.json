@@ -1,8 +1,8 @@
 {
   "id": "01EQTE5HQBNHTNB8XX7QQ6QWKZ",
-  "display_name": "Entering the task view should refresh the list...",
+  "display_name": "Note with fat label hidden set on server",
   "note": {
-    "value": "The list is only refreshed on the first time you enter the page or updated some of the contents of a task.",
+    "value": "The notes are not visible because the server set the hidden label on the field.",
     "labels": {
       "disabled": true,
       "hidden": true
