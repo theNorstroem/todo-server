@@ -158,7 +158,7 @@ github.com/subosito/gotenv
 github.com/theNorstroem/FuroBaseSpecs/dist/pb/furo
 github.com/theNorstroem/FuroBaseSpecs/dist/pb/furo/fat
 github.com/theNorstroem/FuroBaseSpecs/dist/pb/furo/signatures
-# github.com/theNorstroem/todo-specs v0.2.0-fat2
+# github.com/theNorstroem/todo-specs v0.3.0
 ## explicit
 github.com/theNorstroem/todo-specs/dist/pb/auth
 github.com/theNorstroem/todo-specs/dist/pb/person
@@ -215,7 +215,6 @@ golang.org/x/text/transform
 golang.org/x/text/unicode/bidi
 golang.org/x/text/unicode/norm
 # google.golang.org/genproto v0.0.0-20201019141844-1ed22bb0c154
-## explicit
 google.golang.org/genproto/googleapis/api/annotations
 google.golang.org/genproto/googleapis/api/httpbody
 google.golang.org/genproto/googleapis/rpc/errdetails

@@ -33,6 +33,6 @@
   [
     "*",
     "searchInNewPage",
-    "EXTERL_LINK_BLANK: https://google.com/"
+    "EXTERNAL_LINK_BLANK: https://google.com/"
   ]
 ]
