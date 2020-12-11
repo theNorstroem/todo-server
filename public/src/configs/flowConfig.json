@@ -1,38 +1,38 @@
 [
-  [
-    "*",
-    "unauthorized",
-    "auth"
-  ],
-  [
-    "auth",
-    "login-successfull",
-    "dashboard"
-  ],
-  [
-    "*",
-    "view-dashboard-requested",
-    "dashboard"
-  ],
-  [
-    "task",
-    "exit-tasks",
-    "dashboard"
-  ],
-  [
-    "*",
-    "show-task-requested",
-    "task",
-    "*"
-  ],
-  [
-    "*",
-    "search",
-    "EXTERNAL_LINK: https://google.com/"
-  ],
-  [
-    "*",
-    "searchInNewPage",
-    "EXTERNAL_LINK_BLANK: https://google.com/"
-  ]
+    [
+        "*",
+        "unauthorized",
+        "auth"
+    ],
+    [
+        "auth",
+        "login-successfull",
+        "dashboard"
+    ],
+    [
+        "*",
+        "view-dashboard-requested",
+        "dashboard"
+    ],
+    [
+        "task",
+        "exit-tasks",
+        "dashboard"
+    ],
+    [
+        "*",
+        "show-task-requested",
+        "task",
+        "*"
+    ],
+    [
+        "*",
+        "search",
+        "EXTERNAL_LINK: https://google.com/"
+    ],
+    [
+        "*",
+        "searchInNewPage",
+        "EXTERNAL_LINK_BLANK: https://google.com/"
+    ]
 ]
