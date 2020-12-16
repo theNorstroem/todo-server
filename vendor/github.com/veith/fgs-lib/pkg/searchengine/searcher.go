@@ -38,6 +38,7 @@ func List(indexName string, options types.ListingOptions, indexes map[string]str
 
 	var searchRequest *bleve.SearchRequest
 
+
 	if options.Q == "" {
 
 		bq := bleve.NewBooleanQuery()

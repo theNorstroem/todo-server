@@ -153,12 +153,13 @@ github.com/spf13/viper
 github.com/steveyen/gtreap
 # github.com/subosito/gotenv v1.2.0
 github.com/subosito/gotenv
-# github.com/theNorstroem/FuroBaseSpecs v1.13.1
+# github.com/theNorstroem/FuroBaseSpecs v1.14.1
 ## explicit
 github.com/theNorstroem/FuroBaseSpecs/dist/pb/furo
 github.com/theNorstroem/FuroBaseSpecs/dist/pb/furo/fat
+github.com/theNorstroem/FuroBaseSpecs/dist/pb/furo/filter
 github.com/theNorstroem/FuroBaseSpecs/dist/pb/furo/signatures
-# github.com/theNorstroem/todo-specs v0.3.0
+# github.com/theNorstroem/todo-specs v0.3.2-filter
 ## explicit
 github.com/theNorstroem/todo-specs/dist/pb/auth
 github.com/theNorstroem/todo-specs/dist/pb/person
