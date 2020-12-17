@@ -159,7 +159,7 @@ github.com/theNorstroem/FuroBaseSpecs/dist/pb/furo
 github.com/theNorstroem/FuroBaseSpecs/dist/pb/furo/fat
 github.com/theNorstroem/FuroBaseSpecs/dist/pb/furo/filter
 github.com/theNorstroem/FuroBaseSpecs/dist/pb/furo/signatures
-# github.com/theNorstroem/todo-specs v0.3.2-filter
+# github.com/theNorstroem/todo-specs v0.3.4-filter
 ## explicit
 github.com/theNorstroem/todo-specs/dist/pb/auth
 github.com/theNorstroem/todo-specs/dist/pb/person

@@ -4,6 +4,9 @@ package Tasks_grpc
 
 import (
 	"context"
+	"encoding/base64"
+	"encoding/json"
+	filterpb "github.com/theNorstroem/FuroBaseSpecs/dist/pb/furo/filter"
 	"github.com/theNorstroem/FuroBaseSpecs/dist/pb/furo/signatures"
 	"github.com/theNorstroem/todo-specs/dist/pb/task"
 	"github.com/veith/fgs-lib/pkg/hateoas"
@@ -88,6 +91,24 @@ func (s ServiceServer) ListTasks(ctx context.Context, request *taskpb.ListTasksR
 
 	entities := []*taskpb.TaskEntity{}
 	list, listingMetas, _ := s.Tasks.ListTasks(ctx, pagination.GetListingOptions(request))
+
+	filter := &taskpb.Filter{}
+	base, _ := base64.StdEncoding.DecodeString(request.Filter)
+	json.Unmarshal(base, filter)
+	filteroption := filterpb.Filter{}
+	filteroption.Clause = []*filterpb.Condition{}
+
+	if filter.Person != nil {
+		filteroption.Clause = append(filteroption.Clause, filter.Person)
+	}
+
+	if filter.DueDate != nil {
+		filteroption.Clause = append(filteroption.Clause, filter.DueDate)
+	}
+
+	if filter.Note != nil {
+		filteroption.Clause = append(filteroption.Clause, filter.Note)
+	}
 
 	for _, item := range list {
 		entry := item

@@ -388,6 +388,10 @@ github.com/theNorstroem/todo-specs v0.3.1-filter h1:X1zWfWrLl390+G5WVXyiBVDGZYT/
 github.com/theNorstroem/todo-specs v0.3.1-filter/go.mod h1:SwIpD3vQa6o9jVFK3MHG+1nbveqRwoUiRO4tj2LAUVc=
 github.com/theNorstroem/todo-specs v0.3.2-filter h1:UizRNv8wB9yi8sofheJ8Juojg13WZuk0x2mHJNtMFgo=
 github.com/theNorstroem/todo-specs v0.3.2-filter/go.mod h1:SwIpD3vQa6o9jVFK3MHG+1nbveqRwoUiRO4tj2LAUVc=
+github.com/theNorstroem/todo-specs v0.3.3-filter h1:edVqPQuriLC45BB71pUcMhfA8ArEpAbJ50oJjCaZ3g0=
+github.com/theNorstroem/todo-specs v0.3.3-filter/go.mod h1:SwIpD3vQa6o9jVFK3MHG+1nbveqRwoUiRO4tj2LAUVc=
+github.com/theNorstroem/todo-specs v0.3.4-filter h1:F1FTPVpuc7nAgLkIZFAu5EeQdEEVHiM7OE9NY4KZ318=
+github.com/theNorstroem/todo-specs v0.3.4-filter/go.mod h1:SwIpD3vQa6o9jVFK3MHG+1nbveqRwoUiRO4tj2LAUVc=
 github.com/tinylib/msgp v1.1.0 h1:9fQd+ICuRIu/ue4vxJZu6/LzxN0HwMds2nq/0cFvxHU=
 github.com/tinylib/msgp v1.1.0/go.mod h1:+d+yLhGm8mzTaHzB+wgMYrodPfmZrzkirds8fDWklFE=
 github.com/tmc/grpc-websocket-proxy v0.0.0-20190109142713-0ad062ec5ee5/go.mod h1:ncp9v5uamzpCO7NfCPTXjqaC+bZgJeR0sMTm6dMHP7U=
