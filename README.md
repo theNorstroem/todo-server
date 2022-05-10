@@ -1,3 +1,5 @@
+> **discontinued** please look at https://furo.pro/docs/guides/ebook-tutorial/
+
 # todo server
 
 user: demo password: 1234
